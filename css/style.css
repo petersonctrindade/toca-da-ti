@@ -1,3 +1,68 @@
+/* ------------- NAV --------------*/
+
+/* Utilizar fontes de fora. */
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+/* corpo da pagina */
+body{
+    background-color: #171717;
+}
+
+/* Cabeçalho */
+header{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+header button {
+    position: absolute;
+    right: 20px;
+    border-radius: 5px;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
+img{
+    width: 100px;
+    
+}
+
+/* Hover's e Titulo Único */
+button:hover{
+    cursor: pointer;
+    size: 20px;
+}
+
+a:hover{
+    color: rgb(175, 175, 175);
+}
+
+.header-titulo:hover{
+    cursor: pointer;
+}
+
+.header-titulo{
+    font-family: roboto;
+}
+
+/* ------------- NAV --------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     margin: 0;
