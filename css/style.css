@@ -76,3 +76,113 @@ body {
         background-color: #000;
     }
 }
+
+
+
+/* --------------------------código footer geral---------------------------------- */
+
+footer {
+    background-color: #171717;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* -------------------------- h3---------------------------------- */
+
+
+.footer-h3 {
+    text-align: center;
+}
+
+/* --------------------------Button---------------------------------- */
+
+
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
+
+
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* --------------------------Área desenvolvedores---------------------------------- */
+
+.footer-equipe-grid {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    padding-left: 25%;
+    padding-top: 15px;
+}
+
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+}
+
+/* --------------------------Área quem somos--------------------------------- */
+
+
+.footer-quem-somos {
+    display: grid;
+
+}
+
+
+.footer-quem-somos p {
+    text-align: center;
+
+}
+
+/* --------------------------Área lista---------------------------------- */
+
+
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
+
+/* --------------------------Responsividade Mobile---------------------------------- */
+
+@media(max-width: 768px) {
+    /* Div pai dos elementos inferiores */
+    .footer-inferior{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 30px;
+    }
+
+    /* Área quem somos */
+    .footer-quem-somos p {
+        padding: 0 40px ;
+    }
+}
