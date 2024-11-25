@@ -57,7 +57,6 @@ header a:hover{
 /* Cards de cada slide */
 .card {
     margin: 0 32px;
-    height: min-content;
     width: 168px;
     background-color: #171717;
     display: flex;
