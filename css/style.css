@@ -24,7 +24,7 @@ p {
 
 header{
     text-align: center;
-    background-color: #000000;
+    background-color: black;
     padding-top: 20px;
     padding-bottom: 25px;
 }
@@ -39,7 +39,11 @@ header{
     font-family: Poppins;
 }
 
-a:hover{
+header span{
+    color: #00e846;
+}
+
+.header-a:hover{
     color: rgb(175, 175, 175);
 }
 
