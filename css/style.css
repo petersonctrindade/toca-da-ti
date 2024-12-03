@@ -64,3 +64,105 @@ a:hover{
 main {
     margin: 32px 0;
 }
+
+footer {
+    background-color: #171717;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* -------------------------- h3---------------------------------- */
+
+
+.footer-h3 {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Button---------------------------------- */
+
+
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 3px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
+
+
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* --------------------------Área desenvolvedores---------------------------------- */
+
+.footer-equipe-grid {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    padding-left: 25%;
+    padding-top: 15px;
+}
+
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+}
+
+/* --------------------------Área quem somos--------------------------------- */
+
+
+.footer-quem-somos {
+    display: grid;
+
+}
+
+
+.footer-quem-somos p {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* --------------------------Área lista---------------------------------- */
+
+
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
