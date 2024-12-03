@@ -23,11 +23,7 @@ p {
 
 header{
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
+    background-color: #000000;
     padding-top: 20px;
     padding-bottom: 25px;
 }
