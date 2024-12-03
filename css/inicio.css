@@ -1,32 +1,35 @@
-/* Cabeçalho */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color:#ffff;
+    background-color: black;
+}
+
 header{
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
-header button {
-    position: absolute;
-    right: 20px;
-    border-radius: 5px;
-}
-
-header a{
+.header-a{
     margin: 15px;
     text-decoration: none;
     color: white;
-    font-size: 2em;
-    padding: 20px;
+    font-size: 1.8em;
+    padding: 30px;
+    top: 15px;
+    font-family: Poppins;
 }
 
-/* Hover's e Titulo Único */
-button:hover{
-    cursor: pointer;
-    size: 20px;
-}
-
-header a:hover{
+a:hover{
     color: rgb(175, 175, 175);
 }
 
@@ -35,10 +38,140 @@ header a:hover{
 }
 
 .header-titulo{
-    font-family: roboto;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    font-family: Poppins;
+    position: absolute;
+    left: 20px;
+    align-content: center;
+    top: 10px;
+}
+
+.home{
+    display: inline;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.home h1{
+    position: absolute;
+    font-size: 7rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.home img{ 
+    display: block;
+    margin-top: 11%;
+    margin-left: 45%;
+}
+
+.contexto{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+.contexto .texto{
+    padding-top: 3%;
+    width: 50%;
+    text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contexto2{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+.contexto2 .texto{
+    padding-top: 3%;
+    width: 50%;
+    text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contexto3{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+.contexto3 .texto{
+    padding-top: 3%;
+    width: 50%;
+    text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-size: 3rem;
+    padding-bottom: 30px;
+    color: #00e846;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.imagem img{
+    width: 450px;
+    height: 450px;
+    bottom: 10%;
+}
+
+
+.oq-gosto{
+    height: 30vh;
+    font-size: 1.8rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 12%;
+}
+
+.area-carrossel{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.area-carrossel p{
+    font-size: 1.8rem;
+}
+
+.profession{
+    height: 20vh;
+    font-size: 1.8rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 12%;
+}
+
+span{
+    color: #00e846;
 }
 
 /* Início do Carrossel */
+
 #carrossel #slides {
     padding: 16px 0;
     display: flex;
@@ -55,6 +188,7 @@ header a:hover{
 }
 
 /* Cards de cada slide */
+
 .card {
     margin: 0 32px;
     width: 168px;
@@ -67,7 +201,6 @@ header a:hover{
     img {
         margin: 0 auto;
         height: 48px;
-        background-color: red;
     }
 
     hr {
@@ -79,16 +212,22 @@ header a:hover{
     p {
         margin: 0;
         color: #f2f2f2;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
     }
     
     h5 {
         color: #f2f2f2;
         margin: 5px 0;
+        font-size: 1.25em;
     }
 }
 
 /* Navegação do slide */
+
 #carrossel-nav {
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,11 +245,8 @@ header a:hover{
     a:hover, a:active {
         background-color: #000;
     }
+
 }
-
-
-
-/* --------------------------código footer geral---------------------------------- */
 
 footer {
     background-color: #171717;
@@ -126,6 +262,9 @@ footer {
 
 .footer-h3 {
     text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* --------------------------Button---------------------------------- */
@@ -136,6 +275,9 @@ footer {
     font-size: 1.5em;
     padding: 3px;
     cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
@@ -176,6 +318,9 @@ footer {
 
 .footer-quem-somos p {
     text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -195,25 +340,12 @@ footer {
 .footer-lista li a {
     text-decoration: none;
     color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .footer-lista li a:hover {
     text-decoration: none;
     color: #00e846;
-}
-
-/* --------------------------Responsividade Mobile---------------------------------- */
-
-@media(max-width: 768px) {
-    /* Div pai dos elementos inferiores */
-    .footer-inferior{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        row-gap: 30px;
-    }
-
-    /* Área quem somos */
-    .footer-quem-somos p {
-        padding: 0 40px ;
-    }
 }
