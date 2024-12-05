@@ -155,3 +155,49 @@ footer {
     text-decoration: none;
     color: #00e846;
 }
+
+/* --------------------------------- Estilo das profissoes dos (H) ---------------- */
+
+.h2-topico {
+    width: 50%;
+    background-color: #00e846;
+    font-size: 2em;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.h3-subtopico {
+    width: 30%;
+    background-color: #171717;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* -------------------------------------- Profissao Habilidades -------------------------------- */
+
+
+#habilidades p {
+    margin-left: 20px;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.habilidades-container-item {
+    background-color: #171717;
+    width: 50%;
+    margin: 15px;
+}
+
+.habilidades-container-item h4 {
+    text-align: center;
+}
+
+
+/* -------------------------------------- FIM Profissao Habilidades -------------------------------- */
+
