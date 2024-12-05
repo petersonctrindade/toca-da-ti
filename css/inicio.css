@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color:#ffff;
+    background-color: black;
+}
+
 header{
     text-align: center;
     position: fixed;
@@ -47,8 +57,9 @@ a:hover{
 }
 
 .home h1{
+    margin-top: 4%;
     position: absolute;
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
@@ -56,20 +67,20 @@ a:hover{
 
 .home img{ 
     display: block;
-    margin-top: 11%;
-    margin-left: 45%;
+    margin-top: 15%;
+    margin-left: 40%;
 }
 
 .contexto{
     height: 100vh;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
 .contexto .texto{
-    padding-top: 3%;
+    padding-top: 8%;
     width: 50%;
     text-align: left;
     font-family: "Poppins", serif;
@@ -81,12 +92,12 @@ a:hover{
     height: 80vh;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
 .contexto2 .texto{
-    padding-top: 3%;
+    padding-top: 8%;
     width: 50%;
     text-align: left;
     font-family: "Poppins", serif;
@@ -98,12 +109,12 @@ a:hover{
     height: 70vh;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
 .contexto3 .texto{
-    padding-top: 3%;
+    padding-top: 8%;
     width: 50%;
     text-align: left;
     font-family: "Poppins", serif;
@@ -111,12 +122,19 @@ a:hover{
     font-style: normal;
 }
 
-h2{
-    font-size: 3rem;
+#inicio h2{
+    font-size: 2.5rem;
     padding-bottom: 30px;
     color: #00e846;
     font-family: "Poppins", serif;
     font-weight: 600;
+    font-style: normal;
+}
+
+#inicio p{
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -130,30 +148,20 @@ h2{
 
 .oq-gosto{
     height: 30vh;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: left;
     justify-content: center;
     align-items: center;
-    margin: 12%;
-}
-
-.area-carrossel{
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.area-carrossel p{
-    font-size: 1.8rem;
+    margin: 15%;
 }
 
 .profession{
-    height: 20vh;
-    font-size: 1.8rem;
+    height: 1vh;
+    font-size: 15px;
     text-align: left;
     justify-content: center;
     align-items: center;
-    margin: 12%;
+    margin: 15%;
 }
 
 span{
@@ -180,22 +188,22 @@ span{
 /* Cards de cada slide */
 
 .card {
-    margin: 0 32px;
-    width: 168px;
+    margin: 0 35px;
+    width: 190px;
     background-color: #171717;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 30px;
     border-radius: 15px;
 
     img {
         margin: 0 auto;
-        height: 48px;
+        height: 60px;
+        padding-bottom: 20px;
     }
 
     hr {
-        background-color: black;
-        color: black;
+       border-color: #00e846;
         width: 100%;
     }
 
@@ -203,14 +211,20 @@ span{
         margin: 0;
         color: #f2f2f2;
         font-family: "Poppins", serif;
-        font-weight: 500;
+        font-weight: 300;
         font-style: normal;
+        font-size: 17px;
     }
     
     h5 {
+        text-align: center;
         color: #f2f2f2;
         margin: 5px 0;
         font-size: 1.25em;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
     }
 }
 
@@ -236,4 +250,106 @@ span{
         background-color: #000;
     }
 
+}
+
+footer {
+    background-color: #171717;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* -------------------------- h3---------------------------------- */
+
+
+.footer-h3 {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Button---------------------------------- */
+
+
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 3px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
+
+
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* --------------------------Área desenvolvedores---------------------------------- */
+
+.footer-equipe-grid {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    padding-left: 25%;
+    padding-top: 15px;
+}
+
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+}
+
+/* --------------------------Área quem somos--------------------------------- */
+
+
+.footer-quem-somos {
+    display: grid;
+
+}
+
+
+.footer-quem-somos p {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* --------------------------Área lista---------------------------------- */
+
+
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
 }
