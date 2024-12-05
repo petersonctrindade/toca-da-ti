@@ -218,6 +218,7 @@ footer {
         width: 50%;
         background-color: #00e846;
         margin-bottom: 0;
+        font-size: 2em;
     }
 
     .cursos-container {
@@ -225,6 +226,7 @@ footer {
             width: 30%;
             background-color: #171717;
             margin-top: 0;
+             font-size: 1.5em;
         }
 
         .cursos {
