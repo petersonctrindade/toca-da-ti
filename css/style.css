@@ -212,12 +212,14 @@ footer {
     h2 {
         width: 50%;
         background-color: #00e846;
+        margin-bottom: 0;
     }
 
     .cursos-container {
         h3 {
             width: 30%;
             background-color: #171717;
+            margin-top: 0;
         }
 
         .cursos {
