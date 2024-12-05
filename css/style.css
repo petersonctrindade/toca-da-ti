@@ -172,7 +172,7 @@ footer {
 .h3-subtopico {
     width: 30%;
     background-color: #171717;
-    font-size: 1.5em;
+    font-size: 1.0em;
     text-align: center;
     margin-top: 0;
 }
@@ -226,7 +226,7 @@ footer {
             width: 30%;
             background-color: #171717;
             margin-top: 0;
-            font-size: 1.5em;
+            font-size: 1.0em;
         }
 
         .cursos {
