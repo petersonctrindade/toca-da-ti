@@ -166,7 +166,7 @@ footer {
     font-size: 2em;
     text-align: center;
 
-    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .h3-subtopico {
@@ -174,6 +174,7 @@ footer {
     background-color: #171717;
     font-size: 1.5em;
     text-align: center;
+    margin-top: 0;
 }
 
 /* -------------------------------------- Profissao Habilidades -------------------------------- */
