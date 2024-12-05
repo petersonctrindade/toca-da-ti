@@ -246,3 +246,33 @@ footer {
         }
     }
 }
+
+#quem-e {
+    h1 {
+        margin-right: 40%;
+        background-color: #00e846;
+        font-weight: 600;
+        font-style: normal;
+        width: 50%;
+       
+    }
+    
+    h2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 40%;
+        background-color: #171717;
+    }
+    
+    p {
+        font-size: 1.18em;
+        margin-bottom: 3%;
+        padding: 0 48px;
+        
+    }
+    
+    .quem {
+        width: 30%;
+    }
+    
+}
