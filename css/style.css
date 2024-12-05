@@ -163,7 +163,7 @@ footer {
 .h2-topico {
     width: 50%;
     background-color: #00e846;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 
     margin-bottom: 0;
@@ -218,7 +218,7 @@ footer {
         width: 50%;
         background-color: #00e846;
         margin-bottom: 0;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .cursos-container {
@@ -275,7 +275,7 @@ footer {
         margin-right: 40%;
         background-color: #171717;
         margin-top: 0;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     
     p {
