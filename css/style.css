@@ -85,6 +85,7 @@ footer {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
+    border: none;
 }
 
 /* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
