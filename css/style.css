@@ -207,3 +207,42 @@ footer {
 
 /* -------------------------------------- FIM Profissao Habilidades -------------------------------- */
 
+#formacao {
+
+    h2 {
+        width: 50%;
+        background-color: #00e846;
+    }
+
+    .cursos-container {
+        h3 {
+            width: 30%;
+            background-color: #171717;
+        }
+
+        .cursos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 16px;
+        }
+
+        .curso {
+            height: 128px;
+            margin-bottom: 16px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 16px;
+            padding: 0 16px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .text {
+                text-align: center;
+            }
+        }
+    }
+}
