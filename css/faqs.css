@@ -1,1 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.header-a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    padding: 30px;
+    top: 15px;
+    font-family: Poppins;
+}
+
+a:hover{
+    color: rgb(175, 175, 175);
+}
+
+.header-titulo:hover{
+    cursor: pointer;
+}
+
+.header-titulo{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    font-family: Poppins;
+    position: absolute;
+    left: 20px;
+    align-content: center;
+    top: 10px;
+}
+
+span{
+    color: #00e846;
+}
+
+/* Início CSS faqs */
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+h2 {
+    color: #00e846;
+    font-size: 2.7em;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 700px;
+    margin-top: 10%;
+}
+
+.p1{
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 70%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #171717;
+    color: #fff;
+}
+
+form button {
+    background-color: #00e846;
+    color: #000;
+    cursor: pointer;
+    width: 50%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+}
+
+form button:hover {
+    background-color: #171717;
+    color: #00e846;
+}
+
+.acordeao {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 150px;
+}
+
+.acordeao-btn {
+    width: 80%;
+    text-align: left;
+    padding: 15px;
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.acordeao-btn:hover {
+    background-color: #00e846;
+    color: #000;
+}
+
+.conteudo {
+    max-height: 0;
+    width: 80%;
+    overflow: hidden;
+    background-color: #282828;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.conteudo p {
+    margin: 10px 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Início CSS footer */
+
+footer {
+    background-color: #171717;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* -------------------------- h3---------------------------------- */
+
+
+.footer-h3 {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Button---------------------------------- */
+
+
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 3px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
+
+
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* --------------------------Área desenvolvedores---------------------------------- */
+
+.footer-equipe-grid {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    padding-left: 25%;
+    padding-top: 15px;
+}
+
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+}
+
+/* --------------------------Área quem somos--------------------------------- */
+
+
+.footer-quem-somos {
+    display: grid;
+
+}
+
+
+.footer-quem-somos p {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* --------------------------Área lista---------------------------------- */
+
+
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
