@@ -25,6 +25,9 @@ header{
     line-height: 2em;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 64px;
 }
 
 header a {
