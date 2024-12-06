@@ -59,6 +59,10 @@ aside {
             width: 100%;
             grid-row: span 2;
         }
+
+        #teste{
+                margin-left: 50px;
+    }
         
         .text h3 {
             text-align: center;
