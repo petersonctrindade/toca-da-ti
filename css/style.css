@@ -249,6 +249,21 @@ footer {
 
             .text {
                 text-align: center;
+
+                a{
+                    text-decoration: none;
+                   
+                    background-color: #00e846;
+                    color: #000000;
+                    transition: 0.2s all;
+
+                    border-radius: 8px;
+                    padding: 3px;
+                }
+
+                a:hover{
+                    background-color: #00b737;
+                }
             }
         }
     }
