@@ -4,56 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-
-.header-a{
-    margin: 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 1.8em;
-    padding: 30px;
-    top: 15px;
-    font-family: Poppins;
-}
-
-a:hover{
-    color: rgb(175, 175, 175);
-}
-
-.header-titulo:hover{
-    cursor: pointer;
-}
-
-.header-titulo{
-    text-decoration: none;
-    color: white;
-    font-size: 2.5em;
-    font-family: Poppins;
-    position: absolute;
-    left: 20px;
-    align-content: center;
-    top: 10px;
-}
-
-span{
-    color: #00e846;
-}
-
 /* Início CSS faqs */
-
-body {
-    background-color: #000;
-    color: #fff;
-}
 
 h2 {
     color: #00e846;
