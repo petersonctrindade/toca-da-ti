@@ -21,6 +21,12 @@ a {
     cursor: pointer;
 }
 
+b {
+    color: #00e846;
+    font-weight: normal;
+    font-weight: 600;
+}
+
 header{
     line-height: 2em;
     display: flex;
