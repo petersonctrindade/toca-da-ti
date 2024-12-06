@@ -3,31 +3,33 @@
     margin: 0;
 }
 
-body{
-    background-color: black;
-}
-
-.home{
-    display: inline;
-    height: 100vh;
-    display: flex;
+#home {
+    height: 80vh;
+    padding-left: 32px;
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content min-content;
+    gap: 1em;
     align-items: center;
-    margin-left: 50px;
-}
+    align-content: center;
 
-.home h1{
-    margin-top: 4%;
-    position: absolute;
-    font-size: 6rem;
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
-}
+    div {
+        display: grid;
 
-.home img{ 
-    display: block;
-    margin-top: 15%;
-    margin-left: 40%;
+        p {
+            font-size: 6em;
+        }
+    }
+
+    #id2 {
+        justify-items: center;
+
+        img {
+            height: 80%;
+            width: min-content;
+        }
+        
+    }
 }
 
 .contexto{
