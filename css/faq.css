@@ -102,7 +102,9 @@ form button:hover {
     font-weight: 400;
     font-style: normal;
 }
+
 /*------------------------  INICIO RESPONSIVIDADE  ---------------------------  */
+
 @media (max-width: 768px) {
    
     .main-content {
