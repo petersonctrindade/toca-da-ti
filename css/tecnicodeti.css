@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #121212;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    
+}
+
+p{
+    padding-top: 20px;
+}
+
+h2{
+    color: #00e846;
+}
+
+h3{
+    color: #00e846;
+    margin-top: 10px;
+} */
+
+/* b{
+    color: #00e846;
+}
+
+
+ iframe{
+    margin-top: 30px;
+
+}
+
+
+
+/* --------------------------- geral fim ------------------------------------- */
+
+#tecnicodeti-apresentacao{
+    background-color: #000000;
+    color: #fff;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;    
+
+    gap: 30px;
+}
+
+#tecnicodeti-apresentacao img{
+    width: 50%;
+
+    border-radius: 10px;
+}
+
+
+#tecnicodeti-apresentacao div h1{
+    font-size: 2em;
+
+
+    padding-right: 8%;
+}
+
+/* -------------------------- apresentação profissão ----------------------------- */
+
+#apresentacao{
+    background-color: #121212;
+
+    margin: 0 auto;
+    padding: 5  0px;
+    width: 50%;
+
+    text-align: left;
+
+}
+
+.conceitos{
+    padding-left: 10%;
+   
+}
+
+
+
+/* 
+.div-video{
+    background-color: #000000;
+    
+ 
+    margin-top: 40px;
+} */
+
+/* ---------------------------- Habilidades ------------------------------------- */
+
+
+#habilidades{
+    background-color: #121212;
+
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+    text-align: left;
+
+}
+/* 
+#habilidades h2 {
+    color: #00e846;
+} */
+
+ul li{
+    margin-top: 10px;
+}
+
+/* ------------------------------- Carreira ----------------------------------- */
+
+
+#carreira{
+    background-color: #121212;
+
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+    text-align: left;
+
+}
+
+
+
+/* -------------------------------- FORMAÇÕES  ---------------------------------- */
+
+#formacoes{
+    background-color: #121212;
+
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+    text-align: left;
+
+}
+
+.curso{
+    background-color: #000000;
+    
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    a{
+        background-color: #00e846;
+        color: #000000;
+        
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 80%;
+
+        text-decoration: none;
+    }
+
+    a:hover{
+        background-color: #096a26;
+    }
+
+}
+
+
+/* -------------------------------- FORMAÇÕES FIM ---------------------------------- */
