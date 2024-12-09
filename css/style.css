@@ -19,6 +19,7 @@ h1, h2, h3 {
 
 a {
     cursor: pointer;
+    color: #fff;
 }
 
 b {
@@ -40,6 +41,7 @@ header a {
     font-size: 1.25em;
     margin: 0 16px;
     transition: all 0.2s;
+    color: #fff;
 }
 
 header #header-titulo{
