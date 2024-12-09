@@ -19,7 +19,6 @@ h1, h2, h3 {
 
 a {
     cursor: pointer;
-    color: #fff;
 }
 
 b {
@@ -41,7 +40,6 @@ header a {
     font-size: 1.25em;
     margin: 0 16px;
     transition: all 0.2s;
-    color: #fff;
 }
 
 header #header-titulo{
@@ -50,99 +48,67 @@ header #header-titulo{
     font-size: 2em;
 }
 
-header span{
-    color: #00e846;
-}
-
 main {
-    margin: 32px 0;
+    margin: 32px 64px;
 }
 
+/* Footer */
 footer {
     background-color: #171717;
-    color: white;
-
-    display: flex;
-    flex-direction: column;
-
 }
 
-/* -------------------------- h3---------------------------------- */
-
-
-.footer-h3 {
-    text-align: center;
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-/* --------------------------Button---------------------------------- */
-
-
+/* Botão */
 .footer-button {
     background-color: #00e846;
     font-size: 1.5em;
-    padding: 3px;
+    padding: 4px;
+    width: 100%;
     cursor: pointer;
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
     border: none;
 }
 
-/* --------------------------Div pai dos elementos inferiores ao button---------------------------------- */
-
-
+/* Div pai dos elementos inferiores ao button */
 .footer-inferior {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
 }
 
-/* --------------------------Área desenvolvedores---------------------------------- */
-
-.footer-equipe-grid {
-    width: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 5px;
-    padding-left: 25%;
-    padding-top: 15px;
+/* Área desenvolvedores */
+.desenvolvedores {
+    margin: auto;
 }
 
+/* Área de fotos */
+.footer-equipe-grid {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+/* Fotos */
 .footer-img {
     height: 50px;
     width: 50px;
-    border-radius: 80px;
+    border-radius: 100%;
 }
 
-/* --------------------------Área quem somos--------------------------------- */
-
-
-.footer-quem-somos {
+/* Área quem somos */
+.quem-somos {
     display: grid;
-
 }
 
-
-.footer-quem-somos p {
+.quem-somos p {
     text-align: center;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
 
-/* --------------------------Área lista---------------------------------- */
-
-
+/* Área navegação */
 .footer-lista {
     text-align: center;
     padding-top: 15px;
     padding-left: 0;
-
 }
 
 .footer-lista li {
@@ -152,7 +118,6 @@ footer {
 .footer-lista li a {
     text-decoration: none;
     color: #ffffff;
-    font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -160,6 +125,18 @@ footer {
 .footer-lista li a:hover {
     text-decoration: none;
     color: #00e846;
+}
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
 
 /* --------------------------------- Estilo dos (H) ---------------- */
@@ -313,5 +290,4 @@ footer {
     
 }
 
-/* ------------------------------------------------------------------------------------------------ fim quem é --------------------------------------------------------------------------------------- */
-
+/* fim quem é */
