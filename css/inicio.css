@@ -3,8 +3,60 @@
     margin: 0;
 }
 
+section h2 {
+    color: #00e846;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #home {
+        margin-bottom: 64px;
+        height: min-content !important;
+    }
+    
+    #home h1 {
+        font-size: 4em !important;
+    }
+
+    #home img {
+        /* height: 128px !important; */
+        display: none;
+    }
+
+    section:not(#home) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+
+        .texto {
+            width: auto;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .contexto2 {
+        flex-direction: column-reverse !important;
+    }
+
+    .profession p {
+        text-align: center;
+    }
+
+    .oq-gosto p {
+        text-align: left;
+    }
+}
+
 #home {
-    height: calc(100vh - 64px);
+    height: 80vh;
     align-content: center;
 }
 
@@ -17,97 +69,51 @@
     vertical-align: middle;
 }
 
-.contexto{
-    height: 100vh;
+.contexto {
     display: flex;
-    justify-content: center;
     font-size: 1.5rem;
+    justify-content: center;
 }
 
-
-.contexto .texto{
-    padding-top: 8%;
+.contexto .texto {
     width: 50%;
-    text-align: left;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+    align-content: center;
+    text-align: justify;
 }
 
-.contexto2{
-    height: 80vh;
+.contexto2 {
     display: flex;
-    justify-content: center;
     font-size: 1.5rem;
+    justify-content: center;
 }
 
-
-.contexto2 .texto{
-    padding-top: 8%;
+.contexto2 .texto {
     width: 50%;
-    text-align: left;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+    align-content: center;
+    text-align: justify;
 }
 
-.contexto3{
-    height: 70vh;
+.contexto3 {
+    justify-content: center;
     display: flex;
-    justify-content: center;
     font-size: 1.5rem;
 }
 
-
-.contexto3 .texto{
-    padding-top: 8%;
+.contexto3 .texto {
     width: 50%;
-    text-align: left;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+    align-content: center;
+    text-align: justify;
 }
 
-#inicio h2{
-    font-size: 2.5rem;
-    padding-bottom: 30px;
-    color: #00e846;
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
+.profession{
+    font-size: 1.5em;
+    padding: 5% 15%;
+    text-align: justify;
 }
-
-#inicio p{
-    font-size: 1.5rem;
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 
 .imagem img{
     width: 450px;
     height: 450px;
-    bottom: 10%;
-}
-
-
-.oq-gosto{
-    height: 30vh;
-    font-size: 1.5rem;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin: 15%;
-}
-
-.profession{
-    height: 1vh;
-    font-size: 15px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin: 15%;
 }
 
 /* Início do Carrossel */
@@ -131,43 +137,37 @@
 
 .card {
     margin: 0 35px;
+    /* height: min-content; */
     width: 190px;
     background-color: #171717;
     display: flex;
     flex-direction: column;
     padding: 30px;
     border-radius: 15px;
+    transition: ease-in-out 0.2s;
 
     img {
-        margin: 0 auto;
         height: 60px;
         padding-bottom: 20px;
     }
 
     hr {
-       border-color: #00e846;
-        width: 100%;
+        border-color: #00e846;
     }
 
     p {
-        margin: 0;
-        color: #f2f2f2;
-        font-family: "Poppins", serif;
-        font-weight: 300;
-        font-style: normal;
         font-size: 17px;
     }
     
     h5 {
         text-align: center;
-        color: #f2f2f2;
         margin: 5px 0;
         font-size: 1.25em;
-        font-family: "Poppins", serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 20px;
     }
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 /* Navegação do slide */
@@ -192,4 +192,10 @@
         background-color: #000;
     }
 
+}
+
+.oq-gosto{
+    font-size: 1.5em;
+    padding: 5% 15%;
+    text-align: justify;
 }
