@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="engml.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia machine learning</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- <div class="header-logo"> -->
+        <a href="/toca-da-ti/" id="header-titulo">
+            Toca da <span>TI</span>
+        </a>
+        <!-- </div> -->
+
+        <a href="/toca-da-ti/">Início</a>
+        <a href="/toca-da-ti/profissoes">Profissões</a>
+        <a href="/toca-da-ti/faq">FAQ</a>
+    </header>
+
+    <!-- Inicio do Home e conteudo -->
+
+    <!-- Seção Home -->
+    <section id="casa">
+        <div class="container">
+            <div class="home">
+                <img src="https://img.freepik.com/fotos-premium/operario-afro-americano-trabalhando-com-braco-robotico-adepto_31965-34907.jpg?w=900"
+                    alt="">
+
+                <h1>O que é engenharia machine learning? Um guia completo para iniciantes</h1>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="area-eng">
+        <div class="card">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt minima expedita tenetur,
+                possimus odit fugiat libero culpa ipsam, eos amet repellendus. Quod repudiandae natus animi
+                fuga beatae ad! Nihil, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, itaque distinctio tempore aliquid nam illum dolorum recusandae expedita. Quo
+                placeat eveniet atque modi, corporis eos praesentium. Nostrum esse autem explicabo.</p>
+            <img src="https://img.freepik.com/fotos-premium/um-esquilo-sentado-no-ramo-de-uma-arvore_1048944-30371835.jpg?t=st=1733764841~exp=1733765441~hmac=ec793ca85c0dd862645df52550bc7ba45651bb7064d80054cef1396ccffd4aea"
+                alt="imagem ilustrativa">
+
+
+
+
+
+            <h2>O que é engenharia machine learning? </h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas obcaecati exercitationem
+                veritatis ullam dolore. Laudantium placeat nobis quam quisquam voluptates in itaque
+                provident, perferendis animi aut accusamus unde, officiis amet!
+                Assumenda, odit! Facilis, officia est, eos unde asperiores incidunt porro tempora,
+                voluptates id fugit quo quos deleniti. Odio, ut labore aliquam illum voluptates tempore
+                deserunt rerum, eligendi eum odit distinctio.
+                Quasi, tempora laborum rem assumenda doloremque aliquam dicta cumque, dolore enim porro
+                aperiam repellat minima placeat animi itaque at inventore! Eligendi cumque quia provident
+                optio laboriosam, corporis mollitia magnam dolorum.</p>
+            <img src="" alt="imagem ilustrativa">
+
+
+
+
+            <h2>O que engenharia machine learning faz? </h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum incidunt magni eaque esse
+                vitae dolorum sunt tempora hic maiores! Quo quaerat illo vel. Inventore adipisci veritatis
+                laborum voluptatibus nobis quam.
+                Ducimus quidem accusamus, molestiae fuga ratione voluptatum soluta, culpa repudiandae
+                quaerat quasi ipsum porro quam! Iure vel laboriosam sit unde, repellendus dolores, expedita
+                cumque soluta repellat, explicabo dolorem! Perspiciatis, commodi?
+                Esse cum officia quisquam sed enim consequatur suscipit sapiente odit fugit, culpa nihil
+                autem, ab porro asperiores maiores doloremque laborum vitae illum, quibusdam ratione! Eum
+                enim nulla natus modi itaque.
+            </p>
+            <img src="" alt="imagem ilustrativa">
+        </div>
+    </section>
+
+
+
+
+
+
+ <!-- Inicio do footer -->
+ <footer>
+    <button class="footer-button">Voltar ao início</button>
+
+    <div class="footer-inferior">
+
+        <div class="desenvolvedores">
+            <h3>Desenvolvedores</h3>
+
+            <div class="footer-equipe-grid">
+                <img class="footer-img" src="../imagens/equipe/erika.webp" alt="">
+                <img class="footer-img" src="../imagens/equipe/mariana.webp" alt="">
+                <img class="footer-img" src="../imagens/equipe/matheus.webp" alt="">
+                <img class="footer-img" src="../imagens/equipe/nicolas.webp" alt="">
+                <img class="footer-img" src="../imagens/equipe/peterson.webp" alt="">
+                <img class="footer-img" src="../imagens/equipe/valentina.webp" alt="">
+            </div>
+        </div>
+
+        <div class="quem-somos">
+            <h3>Quem somos</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio repellendus nihil culpa adipisci earum ut ea, corporis laboriosam ad illum atque id, recusandae iste eius ipsa? Non, veritatis nihil.</p>
+        </div>
+
+        <div class="Navegação">
+            <h3>Navegação</h3>
+
+            <ul class="footer-lista">
+                <li>
+                    <a href="/toca-da-ti/">Início</a>
+                </li>
+                <li>
+                    <a href="/toca-da-ti/profissoes.html">Profissões</a>
+                </li>
+                <li>
+                    <a href="/toca-da-ti/faq.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+
+</html>
