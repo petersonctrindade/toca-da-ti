@@ -4,32 +4,17 @@
 }
 
 #home {
-    height: 80vh;
-    padding-left: 32px;
-    display: grid;
-    grid-template-columns: min-content min-content;
-    grid-template-rows: min-content min-content;
-    gap: 1em;
-    align-items: center;
+    height: calc(100vh - 64px);
     align-content: center;
+}
 
-    div {
-        display: grid;
+#home h1 {
+    font-size: 6em;
+}
 
-        p {
-            font-size: 6em;
-        }
-    }
-
-    #id2 {
-        justify-items: center;
-
-        img {
-            height: 80%;
-            width: min-content;
-        }
-        
-    }
+#home img {
+    height: 1.25em;
+    vertical-align: middle;
 }
 
 .contexto{
