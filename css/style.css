@@ -48,6 +48,12 @@ header #header-titulo{
     font-size: 2em;
 }
 
+@media (max-width: 768px) {
+    header #header-titulo {
+        display: none;
+    }
+}
+
 main {
     margin: 32px 64px;
 }
@@ -101,7 +107,7 @@ footer {
 }
 
 .quem-somos p {
-    text-align: justify;
+    text-align: center;
 }
 
 /* Área navegação */
@@ -290,4 +296,4 @@ footer {
     
 }
 
-/* fim quem é */
+/* ------------------------------------------------------------------------------------------------ fim quem é --------------------------------------------------------------------------------------- */
