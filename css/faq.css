@@ -102,3 +102,31 @@ form button:hover {
     font-weight: 400;
     font-style: normal;
 }
+/*------------------------  INICIO RESPONSIVIDADE  ---------------------------  */
+@media (max-width: 768px) {
+   
+    .main-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 20;
+        position: absolute;
+        left: 0;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .h3-navegacao{
+        margin-top: 5%;
+    }
+
+    .h3-quem-somos {
+        margin-bottom: 3%;
+    }
+}
