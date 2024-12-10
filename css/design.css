@@ -129,6 +129,11 @@ ul li{
 
 
 @media (max-width: 768px) {
+
+     header #header-titulo {
+        display: none;
+    } 
+    
     .inicio{
         flex-direction: column;
     }
