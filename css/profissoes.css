@@ -61,8 +61,8 @@ aside {
         }
 
         #teste{
-                margin-left: 50px;
-    }
+            margin-left: 50px;
+        }
         
         .text h3 {
             text-align: center;
@@ -87,5 +87,31 @@ aside {
         a:hover {
             background-color: #00b737;
         }
+    }
+}
+
+/* Responsividade */
+@media (max-width: 758px) {
+    aside {
+        display: none;
+    }
+
+    #content {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #intro {
+        padding: 0;
+    
+        h2 {
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    .profissao {
+        display: flex !important;
+        flex-direction: column;
     }
 }
