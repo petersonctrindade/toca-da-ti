@@ -13,3 +13,11 @@ navCarrossel.forEach(nav => {
         }
     })
 });
+
+// Botão do footer
+const buttonFooter = document.querySelector(".footer-button")
+const home = document.querySelector("#home")
+
+buttonFooter.addEventListener("click", () => {
+    home.scrollIntoView({behavior: 'smooth'})
+})
