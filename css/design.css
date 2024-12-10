@@ -56,16 +56,14 @@ header span{
     margin-left: 8%;
     font-size: 3em;
     width: 30%;
-    /* line-height: 1.5; */
-    font-family: "Poppins", serif;
+    margin-bottom: 8%;
     font-weight: 500;
-    font-style: normal;
     
 }
 
 .inicio img{
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -84,17 +82,11 @@ header span{
 .conteudo p{
     margin-top: 0;
     color: white;
-    font-size: 20px;
+    font-size: 1.1em;
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     margin-bottom: 40px;
-}
-
-pe{
-    color: white;
-    font-size: 20px;
-    padding-bottom: 10px;
 }
 
 h2{
@@ -109,10 +101,25 @@ h3{
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 2em;
+    font-weight: 400;
+}
+
+h4{
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 ul{
     width: 80%;
+}
+
+ul li{
+    color: #ffffff;
+    font-size: 17px;
 }
 
 .textos img{
@@ -120,11 +127,10 @@ ul{
     height: auto;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 768px) {
     .inicio{
         flex-direction: column;
-
-
     }
     .conteudo{
         position: relative;
@@ -156,4 +162,18 @@ ul{
         text-align: center;
         justify-content: center;
     }
+
+    .textos p{
+        font-size: 20px;
+    }
+
+    .textos ul li{
+        font-size: 20px;
+    }
+
+    .textos h4{
+        font-size: 2em;
+    }
+
+    
 }
