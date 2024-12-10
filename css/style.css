@@ -6,6 +6,9 @@ body {
     color: #fff;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    background-image: url(../imagens/1.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* Define a cor de todos os elementos textuais */
