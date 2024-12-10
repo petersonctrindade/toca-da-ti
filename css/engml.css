@@ -20,7 +20,6 @@ header a {
     font-size: 1.25em;
     margin: 0 16px;
     transition: all 0.2s;
-    color: #ffffff;
 }
 
 header #header-titulo {
@@ -33,8 +32,7 @@ header span {
     color: #00e846;
 }
 
-
-/* InĆ­cio CSS dos conteĆŗdos */
+/* Início conteúdos */
 
 .home {
     display: flex;
@@ -84,9 +82,10 @@ header span {
     padding: 40px;
     border-radius: 15px;
     background-color: #121212;
-    position: absolute;
     margin-bottom: 300%;
     margin-left: 18%;
+    margin: auto;
+    transform: translate(0, -10px);
 }
 
 .card img {
@@ -106,12 +105,12 @@ header span {
 
 }
 
-.lista{
+.lista {
     display: flex;
     padding: 10px;
 }
 
-ul{
+ul {
     list-style-type: none;
     color: #ffffff;
     font-size: 1.1em;
@@ -128,10 +127,9 @@ ul{
 /* Footer */
 footer {
     background-color: #171717;
-    margin-top: 150%;
 }
 
-/* BotĆ£o */
+/* Botão */
 .footer-button {
     background-color: #00e846;
     font-size: 1.5em;
@@ -148,12 +146,12 @@ footer {
     padding: 20px;
 }
 
-/* Ćrea desenvolvedores */
+/* Área desenvolvedores */
 .desenvolvedores {
     margin: auto;
 }
 
-/* Ćrea de fotos */
+/* Área de fotos */
 .footer-equipe-grid {
     padding: 16px;
     display: grid;
@@ -169,16 +167,17 @@ footer {
     border-radius: 100%;
 }
 
-/* Ćrea quem somos */
+/* Área quem somos */
 .quem-somos {
     display: grid;
 }
 
 .quem-somos p {
+    text-align: center;
     text-align: justify;
 }
 
-/* Ćrea navegaĆ§Ć£o */
+/* Área navegação */
 .footer-lista {
     text-align: center;
     padding-top: 15px;
@@ -201,6 +200,41 @@ footer {
     color: #00e846;
 }
 
+@media (max-width: 768px) {
 
+    .home img {
+        width: 100%;
+        height: 100%;
+        margin: 0
+    }
+
+    .home h1 {
+        font-size: 2em;
+        color: #fdfdfd;
+        margin: 0;
+        margin-left: 15%;
+        width: 50%;
+        position: absolute;
+    }
+
+    .card {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .card h2 {
+        font-size: 2em;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
 
 
