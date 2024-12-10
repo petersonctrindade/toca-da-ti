@@ -1,11 +1,13 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #121212;
     color: white;
 }
 
-header{
+header {
     line-height: 2em;
     display: flex;
     justify-content: center;
@@ -21,51 +23,53 @@ header a {
     color: #ffffff;
 }
 
-header #header-titulo{
+header #header-titulo {
     position: absolute;
     left: 16px;
     font-size: 2em;
 }
 
-header span{
+header span {
     color: #00e846;
 }
 
 
-/* Início CSS dos conteúdos */
+/* InĆ­cio CSS dos conteĆŗdos */
 
-.home{
+.home {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 600px;
+    gap: 20px;
 }
 
-.home img{
-    width: 45%;
-    height: 100%;
+.home img {
+    width: 600px;
+    height: 600px;
     object-fit: cover;
+    margin-right: 4%;
+    border-radius: 15px;
 }
 
-h1{
-    text-align: justify;
+.home h1 {
     font-size: 3em;
     color: #fdfdfd;
     padding: 40px;
     margin: 0;
-    margin-left: 8%;
+    margin-left: 3%;
+    width: 30%;
 
 
 }
 
-#casa{
+#casa {
     background-color: #000;
     position: relative;
 }
 
 #area-eng {
     background-color: #121212;
-    margin-top: -7%
+    margin-top: -5%
 }
 
 .card h2 {
@@ -76,13 +80,13 @@ h1{
 }
 
 .card {
-    max-width: 50%;
-    padding: 20px;
+    max-width: 60%;
+    padding: 40px;
     border-radius: 15px;
     background-color: #121212;
     position: absolute;
     margin-bottom: 300%;
-    margin-left: 25%;
+    margin-left: 18%;
 }
 
 .card img {
@@ -92,11 +96,12 @@ h1{
     margin-left: 10%;
 }
 
-p{
+.card p {
     text-align: justify;
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 20px;
+    font-weight: 400;
 
 }
 
@@ -104,10 +109,10 @@ p{
 /* Footer */
 footer {
     background-color: #171717;
-    margin-top: 100%;
+    margin-top: 135%;
 }
 
-/* Botão */
+/* BotĆ£o */
 .footer-button {
     background-color: #00e846;
     font-size: 1.5em;
@@ -124,12 +129,12 @@ footer {
     padding: 20px;
 }
 
-/* Área desenvolvedores */
+/* Ćrea desenvolvedores */
 .desenvolvedores {
     margin: auto;
 }
 
-/* Área de fotos */
+/* Ćrea de fotos */
 .footer-equipe-grid {
     padding: 16px;
     display: grid;
@@ -145,16 +150,16 @@ footer {
     border-radius: 100%;
 }
 
-/* Área quem somos */
+/* Ćrea quem somos */
 .quem-somos {
     display: grid;
 }
 
 .quem-somos p {
-    text-align: center;
+    text-align: justify;
 }
 
-/* Área navegação */
+/* Ćrea navegaĆ§Ć£o */
 .footer-lista {
     text-align: center;
     padding-top: 15px;
