@@ -11,3 +11,11 @@ links.forEach(link => {
         }
     })
 });
+
+// Botão do footer
+const buttonFooter = document.querySelector(".footer-button")
+const home = document.querySelector("#intro")
+
+buttonFooter.addEventListener("click", () => {
+    intro.scrollIntoView({behavior: 'smooth'})
+})
