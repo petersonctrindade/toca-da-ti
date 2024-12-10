@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Início CSS dos conteúdos */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 600px; */
+}
+
+.home img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    /* text-align: justify; */
+    font-size: 3em;
+    color: #fdfdfd;
+    padding: 40px;
+    margin: 0;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+}
+
+#casa {
+    background-color: #000;
+    /* position: relative; */
+}
+
+#area-eng {
+    background-color: #121212;
+    margin-top: -7%
+}
+
+.card h2 {
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.card {
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #121212;
+    position: absolute;
+    margin-bottom: 300%;
+    margin-left: 25%;
+}
+
+.card img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 27%;
+}
+
+p {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+
+}
+
+.habilidades-b {
+    color: #00e846;
+    text-align: justify;
+}
+
+#formacoes{
+    background-color: #121212;
+
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+    text-align: left;
+
+}
+
+.curso{
+    background-color: #000000;
+    
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    a{
+        background-color: #00e846;
+        color: #000000;
+        
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 80%;
+
+        text-decoration: none;
+    }
+
+    a:hover{
+        background-color: #096a26;
+    }
+
+}
+    
