@@ -1,201 +1,299 @@
-*{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Import da fonte Poppins */
+
+body {
+    background-color: #000000;
+    color: #fff;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-section h2 {
+/* Define a cor de todos os elementos textuais */
+h1, h2, h3, h4, p, a {
+    color: #fff;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+b {
     color: #00e846;
-    margin-bottom: 15px;
-    padding-bottom: 30px;
-    font-size: 2.5rem;
+    font-weight: normal;
+    font-weight: 600;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    #home {
-        margin-bottom: 64px;
-        height: min-content !important;
-    }
-    
-    #home h1 {
-        font-size: 4em !important;
-    }
-
-    #home img {
-        /* height: 128px !important; */
-        display: none;
-    }
-
-    section:not(#home) {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 64px;
-
-        .texto {
-            width: auto;
-            text-align: center;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .contexto2 {
-        flex-direction: column-reverse !important;
-    }
-
-    .profession p {
-        text-align: center;
-    }
-
-    .oq-gosto p {
-        text-align: left;
-    }
-}
-
-#home {
-    height: 80vh;
-    align-content: center;
-}
-
-#home h1 {
-    font-size: 6em;
-}
-
-#home img {
-    height: 1.25em;
-    vertical-align: middle;
-}
-
-.contexto {
-    display: flex;
-    font-size: 1.5rem;
-    justify-content: center;
-}
-
-.contexto .texto {
-    width: 50%;
-    align-content: center;
-    text-align: justify;
-}
-
-.contexto2 {
-    display: flex;
-    font-size: 1.5rem;
-    justify-content: center;
-}
-
-.contexto2 .texto {
-    width: 50%;
-    align-content: center;
-    text-align: justify;
-}
-
-.contexto3 {
-    justify-content: center;
-    display: flex;
-    font-size: 1.5rem;
-}
-
-.contexto3 .texto {
-    width: 50%;
-    align-content: center;
-    text-align: justify;
-}
-
-.profession{
-    font-size: 1.5em;
-    padding: 5% 15%;
-    text-align: justify;
-}
-
-.imagem img{
-    width: 450px;
-    height: 450px;
-}
-
-/* Início do Carrossel */
-
-#carrossel #slides {
-    padding: 16px 0;
-    display: flex;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-
-    .slide {
-        flex-shrink: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/* Cards de cada slide */
-
-.card {
-    margin: 0 35px;
-    /* height: min-content; */
-    width: 190px;
-    background-color: #171717;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    border-radius: 15px;
-    transition: ease-in-out 0.2s;
-
-    img {
-        height: 60px;
-        padding-bottom: 20px;
-    }
-
-    hr {
-        border-color: #00e846;
-    }
-
-    p {
-        font-size: 17px;
-    }
-    
-    h5 {
-        text-align: center;
-        margin: 5px 0;
-        font-size: 1.25em;
-    }
-}
-
-.card:hover {
-    transform: scale(1.1);
-}
-
-/* Navegação do slide */
-
-#carrossel-nav {
-    padding-bottom: 5%;
+header{
+    line-height: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 64px;
+}
 
-    a {
-        display: block;
-        border-radius: 100%;
-        height: 16px;
-        width: 16px;
-        background-color: #171717;
-        margin: 0 8px;
-        transition: 0.2s all;
+header a {
+    text-decoration: none;
+    font-size: 1.25em;
+    margin: 0 16px;
+    transition: all 0.2s;
+}
+
+header #header-titulo{
+    position: absolute;
+    left: 16px;
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    header #header-titulo {
+        display: none;
+    }
+}
+
+main {
+    margin: 32px 64px;
+}
+
+/* Footer */
+footer {
+    background-color: #171717;
+}
+
+/* Botão */
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 4px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+/* Div pai dos elementos inferiores ao button */
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* Área desenvolvedores */
+.desenvolvedores {
+    margin: auto;
+}
+
+/* Área de fotos */
+.footer-equipe-grid {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+/* Fotos */
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* Área quem somos */
+.quem-somos {
+    display: grid;
+}
+
+.quem-somos p {
+    text-align: center;
+}
+
+/* Área navegação */
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+/* --------------------------------- Estilo dos (H) ---------------- */
+
+.h2-topico {
+    width: 50%;
+    background-color: #00e846;
+    font-size: 1.5em;
+    text-align: center;
+
+    margin-bottom: 0;
+}
+
+.h3-subtopico {
+    width: 30%;
+    background-color: #171717;
+    font-size: 1.0em;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* -------------------------------------- Profissao Habilidades -------------------------------- */
+
+
+#habilidades p {
+    margin-left: 20px;
+}
+
+.habilidades-b{
+    color: #00e846;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.habilidades-container-item {
+    background-color: #171717;
+    width: 50%;
+    margin: 15px;
+}
+
+.habilidades-container-item h4 {
+    text-align: center;
+}
+.habilidades-container-item ul {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.habilidades-container-item ul li{
+    color: #fff;
+}
+
+/* -------------------------------------- FIM Profissao Habilidades -------------------------------- */
+
+#formacao {
+
+    h2 {
+        width: 50%;
+        background-color: #00e846;
+        margin-bottom: 0;
+        font-size: 1.5em;
+    }
+
+    .cursos-container {
+        h3 {
+            width: 30%;
+            background-color: #171717;
+            margin-top: 0;
+            font-size: 1.0em;
+        }
+
+        .cursos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 16px;
+        }
+
+        .curso {
+            height: 128px;
+            margin-bottom: 16px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 16px;
+            padding: 0 16px;
+
+            img {
+                height: 128px;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .text {
+                text-align: center;
+
+                a{
+                    text-decoration: none;
+                   
+                    background-color: #00e846;
+                    color: #000000;
+                    transition: 0.2s all;
+
+                    border-radius: 8px;
+                    padding: 3px;
+                }
+
+                a:hover{
+                    background-color: #00b737;
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------ quem é --------------------------------------------------------------------------------------- */
+
+#quem-e {
+    h1 {
+        margin-right: 40%;
+        background-color: #00e846;
+        font-weight: 600;
+        font-style: normal;
+        width: 60%;
+        margin-bottom: 0;
+        font-size: 2.5em;
     }
     
-    a:hover, a:active {
-        background-color: #000;
+    h2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 40%;
+        background-color: #171717;
+        margin-top: 0;
+        font-size: 1.5em;
     }
-
+    
+    p {
+        font-size: 1.18em;
+        margin-bottom: 3%;
+        padding: 0 48px;
+        
+    }
+    
+    .quem {
+        width: 30%;
+    }
+    
 }
 
-.oq-gosto{
-    font-size: 1.5em;
-    padding: 5% 15%;
-    text-align: justify;
-}
+/* ------------------------------------------------------------------------------------------------ fim quem é --------------------------------------------------------------------------------------- */
