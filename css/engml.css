@@ -106,11 +106,29 @@ header span {
 
 }
 
+.lista{
+    display: flex;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    font-weight: 400;
+    gap: 5px;
+}
+
+
+
+/* Fim CSS dos conteúos */
+
 
 /* Footer */
 footer {
     background-color: #171717;
-    margin-top: 135%;
+    margin-top: 150%;
 }
 
 /* BotĆ£o */
@@ -182,3 +200,7 @@ footer {
     text-decoration: none;
     color: #00e846;
 }
+
+
+
+
