@@ -69,7 +69,9 @@ header span{
 }
 
 .conteudo{
-    position: absolute;
+   /* position: absolute; */
+    margin: auto;
+    transform: translate(0, -150px);
     margin-top: 1%;
     top: 90%;
     left: 15%;
