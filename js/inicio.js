@@ -8,8 +8,6 @@ navCarrossel.forEach(nav => {
             document.getElementById("slide-1").scrollIntoView({behavior: 'smooth'})
         } else if (nav.id === "nav-slide2") {
             document.getElementById("slide-2").scrollIntoView({behavior: 'smooth'})
-        } else if (nav.id === "nav-slide3") {
-            document.getElementById("slide-3").scrollIntoView({behavior: 'smooth'})
         }
     })
 });
