@@ -11,6 +11,7 @@ body{
 }
 
 header{
+    background-color: black;
     line-height: 2em;
     display: flex;
     justify-content: center;
