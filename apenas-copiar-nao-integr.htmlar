@@ -1,0 +1,6 @@
+
+botao para botar no header
+<BUtton onclick="alternarModo()">mudar tema</BUtton>
+
+conectar js na sua pasta
+<script src="../js/modo-geral.js" defer></script>
