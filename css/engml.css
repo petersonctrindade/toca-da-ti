@@ -33,6 +33,28 @@ header b {
     color: #00e846;
 }
 
+header a:hover {
+    color: #00e846;
+}
+
+.modo-claro {
+    position: absolute;
+    right: 16px;
+}
+
+.modo-claro:hover {
+    color: #00e846;
+}
+
+button {
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000000;
+}
+
 /* Início conteúdos */
 
 .home {
@@ -219,6 +241,76 @@ footer {
 }
 
 
+
+
+/* --------- Modo Claro -------- */
+
+.light-mode{
+    background-image: unset !important;
+}
+
+.light-mode .home{
+    background-color: #ffffff;
+}
+
+.light-mode .home h1{
+    color: #000000;
+}
+
+.light-mode header{
+    background-color: #d3d3d3;
+}
+
+.light-mode header b{
+    color: #00e846;
+}
+
+.light-mode header a{
+    color: #000000;
+}
+
+.light-mode #area-eng{
+    background-color: #e0e0e0;
+}
+
+.light-mode .card{
+    background-color: #e0e0e0;
+}
+
+.light-mode .card h2{
+    color: #000000;
+}
+
+.light-mode .card p{
+    color: #000000;
+}
+
+.light-mode .card ul{
+    color: #000000;
+}
+
+.light-mode footer{
+    background-color: #d3d3d3;
+    color: #000000;
+}   
+
+.light-mode li a{
+    color: #000000;
+}
+
+.light-mode button{
+    background-color: black;
+    color: white;
+}
+
+/* .light-mode .modo-claro button{ 
+    background-color: #00e846;
+    color: #000000;
+
+} */
+    
+
+
 /* Responsividade da página */
 
 @media (max-width: 768px) {
@@ -297,8 +389,11 @@ footer {
     }
 
     .footer-equipe-grid{
-        /* display: flex; */
         align-items: center;
         width: 60%;
+    }
+
+    .light-mode .home h1{
+        color: #949292;
     }
 }
