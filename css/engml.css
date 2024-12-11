@@ -134,7 +134,7 @@ footer {
 .footer-button {
     background-color: #00e846;
     font-size: 1.5em;
-    padding: 4px;
+    /* padding: 4px; */
     width: 100%;
     cursor: pointer;
     border: none;
@@ -142,24 +142,26 @@ footer {
 
 /* Div pai dos elementos inferiores ao button */
 .footer-inferior {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px; */
 }
 
 /* Área desenvolvedores */
 .desenvolvedores {
     margin: auto;
+    width: 13%
 }
 
 /* Área de fotos */
-.footer-equipe-grid {
+/* .footer-equipe-grid {
     padding: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 16px;
     column-gap: 16px;
-}
+} */
 
 /* Fotos */
 .footer-img {
@@ -170,18 +172,29 @@ footer {
 
 /* Área quem somos */
 .quem-somos {
-    display: grid;
+   width: 30%;
+   margin-right: 10%;
+}
+
+.quem-somos h3{
+    text-align: center;
 }
 
 .quem-somos p {
     text-align: center;
     text-align: justify;
+    font-size: 15px;
+}
+
+.Navegação{
+    width: 20%;
+
 }
 
 /* Área navegação */
 .footer-lista {
-    text-align: center;
-    padding-top: 15px;
+    text-align: left;
+    /* padding-top: 15px; */
     padding-left: 0;
 }
 
@@ -200,6 +213,7 @@ footer {
     text-decoration: none;
     color: #00e846;
 }
+
 
 /* Responsividade da página */
 
@@ -259,7 +273,27 @@ footer {
     }
 
     .footer-inferior {
-        grid-template-columns: none;
-        grid-template-rows: 1fr 1fr 1fr;
+        flex-direction: column;
+    }
+
+    .quem-somos {
+        width: 70%;
+        margin-left: 15%;
+}
+
+    .Navegação{
+        width: 70%;
+        margin-left: 38%;
+    }
+
+    .desenvolvedores {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    .footer-equipe-grid{
+        /* display: flex; */
+        align-items: center;
+        width: 60%;
     }
 }
