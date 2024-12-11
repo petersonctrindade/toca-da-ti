@@ -338,3 +338,120 @@ footer {
 }
 
 /* ------------------------------------------------------------------------------------------------ fim quem é --------------------------------------------------------------------------------------- */
+
+
+/* -------------- modo claro------------------- */
+.light-mode{
+    background-image: unset !important;
+}
+
+.light-mode header{
+    background-color: #d3d3d3;
+}
+
+.light-mode header b{
+    color: #00e846;
+}
+
+.light-mode header a{
+    color: #000000;
+}
+
+.light-mode #area-eng{
+    background-color: #e0e0e0;
+}
+
+.light-mode .card{
+    background-color: #e0e0e0;
+}
+
+.light-mode .card h2{
+    color: #000000;
+}
+
+.light-mode .card p{
+    color: #000000;
+}
+
+.light-mode .card h1{
+    color: #000000;
+}
+
+.light-mode .card ul{
+    color: #000000;
+}
+
+.light-mode footer{
+    background-color: #d3d3d3;
+    color: #000000;
+}   
+
+.light-mode li{
+    color: #000000;
+}
+
+.light-mode .home{
+    background-color: #ffffff;
+}
+
+.light-mode .conteudo{
+    background-color: #ffffff;
+}
+
+.light-mode #corpo{
+    background-color: #ffffff;
+}
+
+.light-mode #home{
+    background-color: #ffffff;
+}
+
+.light-mode #corpo{
+    background-color: #ffffff;
+}
+
+.light-mode .home h1{
+    color: #000000;
+}
+
+.light-mode h1,h2,h3{
+    color: #000000 !important;
+}
+
+.light-mode p{
+    color: #000000;
+}
+
+
+button {
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000000;
+}
+
+.light-mode button{
+    background-color: black;
+    color: white;
+}
+
+.light-mode #home img{
+    filter: invert(1);
+}
+
+.light-mode #nav-profissoes{
+    background-color: #dfdddd;
+    color: #000000;
+}
+
+.light-mode #area-design{
+    background-color: #dfdddd;
+    color: #000000;
+}
+
+.light-mode .profissao{
+    background-color: #dfdddd !important;
+    color: #000000 !important;
+}
