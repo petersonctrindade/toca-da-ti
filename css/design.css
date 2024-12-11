@@ -153,6 +153,7 @@ ul li{
         height: 100vh;
         width: auto;
         margin-right: 10%;
+        filter: brightness(50%);
     }
 
     .textos img{
