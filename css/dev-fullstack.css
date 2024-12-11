@@ -4,6 +4,7 @@ body {
 }
 
 #home{
+    background-color: #000;
     border-radius: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
