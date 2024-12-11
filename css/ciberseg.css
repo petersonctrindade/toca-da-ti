@@ -167,12 +167,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
+
+}
+
+.footer-inferior .footer-h3{
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0;
 }
 
 /* Área desenvolvedores */
 .desenvolvedores {
     margin: auto;
 }
+
+
 
 /* Área de fotos */
 .footer-equipe-grid {
@@ -181,6 +190,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 16px;
     column-gap: 16px;
+    /* margin-bottom: 60px; */
 }
 
 /* Fotos */
@@ -193,8 +203,6 @@ footer {
 /* Área quem somos */
 .quem-somos {
     display: grid;
-    margin-top: 5%;
-    text-align: center;
 }
 
 .quem-somos p {
@@ -206,12 +214,12 @@ footer {
 .footer-lista {
     text-align: center;
     padding-top: 15px;
-    padding-left: 0;
-    margin-top: 10%;
+    padding-left: 35px;
 }
 
 .footer-lista li {
     list-style: none;
+    margin: 0;
 }
 
 .footer-lista li a {
