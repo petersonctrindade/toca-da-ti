@@ -201,6 +201,8 @@ footer {
     color: #00e846;
 }
 
+/* Responsividade da página */
+
 @media (max-width: 768px) {
 
     header #header-titulo {
