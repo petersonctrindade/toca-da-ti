@@ -130,6 +130,80 @@ ul li{
     height: auto;
 }
 
+footer {
+    background-color: #171717;
+}
+
+/* Botão */
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 4px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+/* Div pai dos elementos inferiores ao button */
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* Área desenvolvedores */
+.desenvolvedores {
+    margin: auto;
+}
+
+/* Área de fotos */
+.footer-equipe-grid {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+/* Fotos */
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* Área quem somos */
+.quem-somos {
+    display: grid;
+}
+
+.quem-somos p {
+    text-align: center;
+    text-align: justify;
+}
+
+/* Área navegação */
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
 
 @media (max-width: 768px) {
 
@@ -183,6 +257,33 @@ ul li{
     .textos h4{
         font-size: 2em;
     }
+}
 
-    
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .footer-inferior h3{
+        margin-bottom: 0px;
+    }
+
+    /* Área de fotos */
+    .footer-equipe-grid {
+        margin-bottom: 0px;
+    }
+
+    /* Fotos */
+    .footer-img {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+    }
+
 }
