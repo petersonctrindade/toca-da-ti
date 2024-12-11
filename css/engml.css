@@ -226,7 +226,8 @@ footer {
     .home img {
         width: 100%;
         height: 100%;
-        margin: 0
+        margin: 0;
+        filter: brightness(50%);
     }
 
     .home h1 {
