@@ -31,6 +31,12 @@ h1 {
 
 }
 
+.Navegação h3{
+   margin-top: 9%;
+   margin-left: 35%;
+
+}
+
 #casa {
     background-color: #000;
     /* position: relative; */
@@ -53,9 +59,9 @@ h1 {
     padding: 20px;
     border-radius: 15px;
     background-color: #121212;
-    position: absolute;
-    margin-bottom: 300%;
+    transform: translate(0,-150px);
     margin-left: 25%;
+    margin-top: 10%;
 }
 
 .card img {
@@ -88,7 +94,32 @@ p {
     text-align: left;
 
 }
+header{
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
 
+header a {
+    text-decoration: none;
+    font-size: 1.25em;
+    margin: 0 16px;
+    transition: all 0.2s;
+    color: white;
+}
+
+header #header-titulo{
+    position: absolute;
+    left: 16px;
+    font-size: 2em;
+}
+
+header b {
+    color: #00e846;
+}
+/* 
 .curso{
     background-color: #000000;
     
@@ -114,7 +145,95 @@ p {
 
     a:hover{
         background-color: #096a26;
+    } */
+
+/* Footer */
+footer {
+    background-color: #171717;
+}
+
+/* Botão */
+.footer-button {
+    background-color: #00e846;
+    font-size: 1.5em;
+    padding: 4px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+/* Div pai dos elementos inferiores ao button */
+.footer-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* Área desenvolvedores */
+.desenvolvedores {
+    margin: auto;
+}
+
+/* Área de fotos */
+.footer-equipe-grid {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+/* Fotos */
+.footer-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* Área quem somos */
+.quem-somos {
+    display: grid;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.quem-somos p {
+    text-align: center;
+    text-align: justify;
+}
+
+/* Área navegação */
+.footer-lista {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 0;
+    margin-top: 10%;
+}
+
+.footer-lista li {
+    list-style: none;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-lista li a:hover {
+    text-decoration: none;
+    color: #00e846;
+}
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
     }
 
+    .footer-inferior {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
-    
