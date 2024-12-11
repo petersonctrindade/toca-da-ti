@@ -4,6 +4,10 @@
     h2 {
         text-align: center;
         margin: 0 128px;
+        font-size: 3em;
+    }
+    p{
+        font-size: 22px;
     }
 }
 
@@ -14,6 +18,7 @@
 
 aside {
     margin-right: 8px;
+    margin-top: 35%;
     
     #nav-profissoes {
         position: sticky;
@@ -27,7 +32,7 @@ aside {
         flex-direction: column;
 
         p {
-            font-size: 22px;
+            font-size: 20px;
             margin: 0;
             user-select: none;
         }
@@ -115,3 +120,4 @@ aside {
         flex-direction: column;
     }
 }
+
