@@ -154,11 +154,6 @@ footer {
     width: 13%
 }
 
-.desenvolvedores h3{
-    margin-top: 2%;
-}
-
-
 /* Área de fotos */
 /* .footer-equipe-grid {
     padding: 16px;
@@ -178,7 +173,11 @@ footer {
 /* Área quem somos */
 .quem-somos {
    width: 30%;
-   margin-right: 10%;
+   margin-right: 15%;
+}
+
+.desenvolvedores h3{
+    margin-top: 2%;
 }
 
 .quem-somos h3{
