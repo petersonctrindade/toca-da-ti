@@ -95,7 +95,7 @@ footer {
     font-size: 1.17em;
     font-weight: bold;
     margin: 0;
-    text-aling: center;
+    text-align: center;
 }
 
 /* Área desenvolvedores */
@@ -387,6 +387,17 @@ footer {
     color: #000000;
 }   
 
+.light-mode footer h3{
+    color: #000000 !important;
+}  
+
+.light-mode footer a{
+    color: #000000 !important;
+}   
+.light-mode footer a:hover{
+    color: #00b737 !important;
+}   
+
 .light-mode li{
     color: #000000;
 }
@@ -415,8 +426,10 @@ footer {
     color: #000000;
 }
 
-.light-mode h1,h2,h3{
-    color: #000000 !important;
+.light-mode{ 
+    h1,h2,h3,h4{
+        color: #000000 !important; 
+    }
 }
 
 .light-mode p{
@@ -426,11 +439,13 @@ footer {
 
 button {
     border: none;
-    border-radius: 40px;
+    border-radius: 10px;
     padding: 5px;
     background-color: #fff;
     cursor: pointer;
     color: #000000;
+    position: absolute;
+    right: 10px;
 }
 
 .light-mode button{
@@ -438,7 +453,7 @@ button {
     color: white;
 }
 
-.light-mode #home img{
+.light-mode #home .logo-coelho{
     filter: invert(1);
 }
 
@@ -456,3 +471,16 @@ button {
     background-color: #dfdddd !important;
     color: #000000 !important;
 }
+
+.light-mode #conteudo{
+    background-color: #ffffff !important;
+}
+
+.light-mode #conteudo h3{
+    color: #000000 !important;
+}
+
+.light-mode #conteudo h4{
+    color: #000000 !important;
+}
+

@@ -165,6 +165,10 @@ section h2 {
     }
 }
 
+h2,h3{
+    color: #00e846;
+}
+
 .card:hover {
     transform: scale(1.1);
 }
