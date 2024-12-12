@@ -209,6 +209,10 @@ h2,h3{
         display: none;
     }
 
+    .card {
+        margin: 0;
+    }
+
     #profissoes {
         display: flex;
     }
