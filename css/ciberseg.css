@@ -2,7 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #121212;
-    color: white;
+   /* color: white; */
+    background-color: #121212 !important;
+    background-image: unset !important;
 }
 
 /* Início CSS dos conteúdos */
