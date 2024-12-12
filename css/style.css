@@ -344,6 +344,7 @@ footer {
 /* -------------- modo claro------------------- */
 .light-mode{
     background-image: unset !important;
+    background-color: #ffffff;
 }
 
 .light-mode header{
