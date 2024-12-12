@@ -7,6 +7,8 @@ body {
     color: white;
 }
 
+/* Início CSS do cabeçalho */
+
 header {
     line-height: 2em;
     display: flex;
@@ -37,14 +39,9 @@ header a:hover {
     color: #00e846;
 }
 
-.modo-claro {
-    position: absolute;
-    right: 16px;
-}
+/* final do cabeçalho */
 
-.modo-claro:hover {
-    color: #00e846;
-}
+/* Início CSS do botão modo claro */
 
 button {
     border: none;
@@ -54,6 +51,18 @@ button {
     cursor: pointer;
     color: #000000;
 }
+
+
+.modo-claro {
+    position: absolute;
+    right: 16px;
+}
+
+.modo-claro:hover {
+    color: #00e846;
+}
+
+/*final do botão modo claro */
 
 /* Início conteúdos */
 
@@ -152,22 +161,11 @@ footer {
     background-color: #171717;
 }
 
-/* Botão */
-.footer-button {
-    background-color: #00e846;
-    font-size: 1.5em;
-    /* padding: 4px; */
-    width: 100%;
-    cursor: pointer;
-    border: none;
-}
 
 /* Div pai dos elementos inferiores ao button */
 .footer-inferior {
     display: flex;
     justify-content: space-evenly;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px; */
 }
 
 /* Área desenvolvedores */
@@ -176,14 +174,6 @@ footer {
     width: 13%
 }
 
-/* Área de fotos */
-/* .footer-equipe-grid {
-    padding: 16px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 16px;
-    column-gap: 16px;
-} */
 
 /* Fotos */
 .footer-img {
@@ -220,7 +210,6 @@ footer {
 /* Área navegação */
 .footer-lista {
     text-align: left;
-    /* padding-top: 15px; */
     padding-left: 0;
 }
 
@@ -302,14 +291,6 @@ footer {
     background-color: black;
     color: white;
 }
-
-/* .light-mode .modo-claro button{ 
-    background-color: #00e846;
-    color: #000000;
-
-} */
-    
-
 
 /* Responsividade da página */
 
