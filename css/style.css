@@ -167,6 +167,10 @@ footer h3 {
         color: #ffffff !important;
     }
 
+    .light-mode .desvende{
+        color: #000000 !important;
+    }
+
 }
 
 /* --------------------------------- Estilo dos (H) ---------------- */
@@ -465,6 +469,10 @@ footer h3 {
 }
 
 .light-mode #conteudo h4{
+    color: #000000 !important;
+}
+
+.light-mode .desvende{
     color: #000000 !important;
 }
 
