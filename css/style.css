@@ -163,6 +163,10 @@ footer h3 {
         border-radius: 100%;
     }
 
+    .light-mode h1{
+        color: #ffffff !important;
+    }
+
 }
 
 /* --------------------------------- Estilo dos (H) ---------------- */
@@ -408,7 +412,7 @@ footer h3 {
 
 .light-mode{ 
     h1,h2,h3,h4{
-        color: #000000 !important; 
+        color: #000000; 
     }
 }
 
