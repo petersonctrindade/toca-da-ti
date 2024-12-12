@@ -7,7 +7,7 @@
 
 body{
     background-color: #121212 !important;
-    background-image: unset;
+    background-image: unset !important;
     font-family: "poppins",sans-serif;
 }
 
