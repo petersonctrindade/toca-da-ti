@@ -40,7 +40,7 @@ body {
     font-weight: 300; 
 }
 
-h3{
+#corpo h3{
     font-size: 2em;
     font-weight: normal;
     text-align: left !important;
@@ -53,9 +53,6 @@ h4{
     color: #ffffff;
 }
 
-ul{
-    width: 80%;
-}
 
 ul li{
     color: #ffffff;
