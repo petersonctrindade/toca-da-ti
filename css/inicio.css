@@ -183,11 +183,12 @@ h2,h3{
     a {
         display: block;
         border-radius: 100%;
-        height: 16px;
-        width: 16px;
-        background-color: #171717;
+        height: 24px;
+        width: 24px;
+        background-color: #000;
         margin: 0 8px;
         transition: 0.2s all;
+        border: 2px solid #00e846;
     }
     
     a:hover, a:active {
